@@ -5,7 +5,7 @@ body, html {
 /* The image used below is called a "hero-image though i gave it a class name in my HTML  */
 .HeroOfTime {
     /* The image used */
-    background-image: url("http://gonintendo.com/system/file_uploads/uploads/000/014/840/medium/the_legend_of_zelda_by_culu_bluebeaver.jpg");
+    background-image: url("https://i.imgur.com/MxYIcXW.jpg");
 
     /* This will change the height of my image */
     height: 100%;
@@ -24,7 +24,16 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #1DA237;
+    color: black;
+	font-family: font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	font-size: 30px;
-	font-family: Arial;
+}
+
+.button {
+    border: none;
+    color: #A9A9A9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:line-through;
+    font-size: 20px;
 }
