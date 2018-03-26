@@ -9,7 +9,6 @@ body, html {
 
     /* This will change the height of my image */
     height: 100%;
-
     /* The below will make sure that the image is rendered nicely upon the page, at entry */
     background-position: center;
     background-repeat: no-repeat;
