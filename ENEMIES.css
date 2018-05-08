@@ -25,7 +25,33 @@
     color: white;
 }
 	
-table { 
+Table{ 
 	border-collapse: collapse;
-	background-color: 	#006400;
+	background-color: 	#00008B;
+	color: #ffff99;
+	margin-left: auto;
+	margin-right: auto;
 	}
+	
+	h1 {
+	color: #FFEBCD;
+	text-align: center;
+}
+
+h2{
+	color: 	#7FFF00;
+	text-align: center;
+}
+
+table.Table1 {
+	background-color: #800000;
+	margin-left: auto;
+	margin-right: auto;
+        
+        }
+		
+table.Table52{
+	background-color: 	#006400;
+	margin-left: auto;
+	margin-right: auto;
+}		
