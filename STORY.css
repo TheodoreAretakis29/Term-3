@@ -40,12 +40,11 @@ h3{
 	text-align: center;
 }
 
-p{
-	color: #B83336;
-	text-align: center;
-	font-size: 320%;
+p {
+  color: #FFFF82;
 }
 
-img{
-	 width: 30%;
+body{
+    background-attachment: fixed; 
+	 background-position: center;
 }

@@ -35,21 +35,31 @@ h2 {
 	text-align: center;
 }
 
-p{
-	color: #FFEBCD; 
-	text-align: center;
+body{
+    background-attachment: fixed;
+    background-position: center; 
 }
 
-.center {
+h3 {
+	color: #FFEBCD; 
+}
+
+p{
+	color: #FFEBCD; 
+}
+
+.GW {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.67%;
+	float: right;
+}
+
+.yeet {
+	 display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
 	float: center;
 }
-
-body{
-    background-attachment: fixed; 
-	 background-position: center;
-}
-	
