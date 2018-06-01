@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* This will style the links inside the bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -13,48 +13,48 @@
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* This will change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
+/* This will add a color to the active/current link that's being hovered over.*/
 .topnav a.active {
     background-color: 	#0000FF;
     color: white;
 }
-
+/* This will change the colour of the words in the h1 element.*/
 h1 {
 	color: #FFEBCD;
 	text-align: center;
 }
-
+/* This will change the colour of the words in the h2 element.*/
 h2{
 	color: #FFEBCD;
 	text-align: center;
 }
-
+/* This will change the colour of the words in the h3 element.*/
 h3{
 	color: #FFEBCD;
 	text-align: center;
 }
-
+/* This will change the colour of the words in the p element.*/
 p {
   color: #FFEBCD;
 }
-
+/* This will fix the background image andoptimize it for my screen. */
 body{
     background-attachment: fixed; 
 	 background-position: center;
 }
-
+/* The below will edit and format all of the controls, contained within the unlisted element. */
 ul{
 	text-align: center;
 	color: #B80000 ;
 	font-size: 22px;
 }
-
+/* Lastly, the MARX class, attached to the gif of the NES will have this CSS to make it nice and big, visisble to the eye, and centered. */
 .MARX{
 	display: block;
     margin-left: auto;

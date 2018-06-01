@@ -1,3 +1,4 @@
+/* This will change the colour of the words in the h1 element.*/
 h1 {
 	color: #FFEBCD;
 	text-align: center;
@@ -8,7 +9,7 @@ h1 {
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* This will style the links inside the bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -18,36 +19,36 @@ h1 {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* This will change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
+/* This will add a color to the active/current link that's being hovered over.*/
 .topnav a.active {
     background-color: 	#0000FF;
     color: white;
 }
-
+/* This will change the colour of the words in the h2 element.*/
 h2 {
 	color: #FFEBCD; 
 	text-align: center;
 }
-
+/* This will fix the background image andoptimize it for my screen. */
 body{
     background-attachment: fixed;
     background-position: center; 
 }
-
+/* This will change the colour of the words in the h3 element.*/
 h3 {
 	color: #FFEBCD; 
 }
-
+/* This will change the colour of the words in the p element.*/
 p{
 	color: #FFEBCD; 
 }
-
+/* The following two pieces of CSS will fix the images dispayed on the image. The first one being of Mr. Yokoi */
 .GW {
     display: block;
     margin-left: auto;

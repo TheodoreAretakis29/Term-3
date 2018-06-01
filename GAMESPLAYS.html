@@ -5,13 +5,12 @@
     <h1> Metroid Database </h1>
     <link href="GAMESPLAYS.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
     <div class="topnav">
-
-        <body background="https://img00.deviantart.net/cb87/i/2012/238/d/6/metroid_wallpaper__1280x800__1600x900__1900x1080__by_markitox_rox3r-d5br7cy.jpg">
     </div>
-    <div class="topnav">
+<body background="https://img00.deviantart.net/cb87/i/2012/238/d/6/metroid_wallpaper__1280x800__1600x900__1900x1080__by_markitox_rox3r-d5br7cy.jpg">
+ <!-- As you can see, the below will appear on every one of my html documents, and it links every single page to the next -->
+	<div class="topnav">
         <a href="FINALMAINPAGE.html">Home</a>
         <a href="STORY.html">Story</a>
         <a href="Development457.html">Development</a>
@@ -20,7 +19,7 @@
         <a href="ENEMIES.html">Enemies</a>>
     </div>
     <h2> How to Play! </h2>
-
+<!-- The following images will have a button attached to them that will change the image of the NES when clicked to a gif. -->
     <ul> <button onclick="ButtonFunction()">A Button</button>: Used to jump up in the air; Hold a directional pad to commence a somersault in the air. <img src="http://www.nesmaps.com/maps/Metroid/sprites/SamusJumpL.png"> </ul>
     <ul> <button onclick="ButtonFunction2()">B Button</button>: Fire Arm Cannons; Fire Missles; Fire with current Weapon. Lay bombs (in Morph Ball mode) <img src="http://www.nesmaps.com/maps/Metroid/sprites/SamusRunningL.gif"> </ul>
     <ul> <button onclick="ButtonFunction3()">Select</button>: Switch to Missle Mode. <img src="http://www.nesmaps.com/maps/Metroid/sprites/SamusEnding4.png" class="BOOMA"> </ul>
@@ -29,34 +28,28 @@
     <ul> <button onclick="ButtonFunction6()">Down</button>: Turn into morph ball <img src="http://www.nesmaps.com/maps/Metroid/sprites/SamusBall.gif"></ul>
 
     <img src="http://i0.kym-cdn.com/photos/images/original/001/284/732/71e.gif" class = "MARX" id = "Philip">
-	</p>
-<div>
+	
 </body>
 <script>
+/* And here we are once again, working with Javascript. These functions, each attached to their respective button will be replacing the "Philip" value with their own images. */
 function  ButtonFunction() {
 document.getElementById("Philip").src = "https://i.imgur.com/fZD3OHS.gif";
 }
-
 function ButtonFunction2() {
 document.getElementById("Philip").src ="https://78.media.tumblr.com/328def0aaecd3518fdd2b25ffc9dcf5f/tumblr_p7cz9lpvWl1qa6wvao1_400.gif";
 }
-
 function ButtonFunction3() {
 document.getElementById("Philip").src ="https://78.media.tumblr.com/1835536f971d5e95fe3eace2c84b1f42/tumblr_inline_obhvtsW7Gt1r2gkqp_500.gif";
 }
-
 function ButtonFunction4(){
 document.getElementById("Philip").src = "https://giffiles.alphacoders.com/350/3508.gif";
 }
-
-
 function ButtonFunction5() {
 document.getElementById("Philip").src ="https://media.giphy.com/media/13CawvVUB8B72M/giphy.gif";
 }
-
 function ButtonFunction6(){
 document.getElementById("Philip").src = "https://i.imgur.com/GyHezpJ.gif"
 }
-
 </script>
 </html>	
+			

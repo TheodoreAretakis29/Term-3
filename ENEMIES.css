@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* This will style the links inside the bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -13,18 +13,18 @@
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* This will change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
+/* This will add a color to the active/current link that's being hovered over.*/
 .topnav a.active {
     background-color: 	#0000FF;
     color: white;
 }
-	
+/* This is my first table alongside the elemtns that will alter its appearance*/
 Table{ 
 	border-collapse: collapse;
 	background-color: 	#00008B;
@@ -32,30 +32,30 @@ Table{
 	margin-left: auto;
 	margin-right: auto;
 	}
-	
+/* This will change the colour of the words in the h1 element.*/
 	h1 {
 	color: #FFEBCD;
 	text-align: center;
 }
-
+/* This will change the colour of the words in the h2 element.*/
 h2{
 	color: 	#7FFF00;
 	text-align: center;
 }
-
+/* This is my second table alongside the elemtns that will alter its appearance*/
 table.Table1 {
 	background-color: #800000;
 	margin-left: auto;
 	margin-right: auto;
         
-        }
-		
+ }
+/* This is my third table alongside the elemtns that will alter its appearance*/
 table.Table52{
 	background-color: 	#006400;
 	margin-left: auto;
 	margin-right: auto;
 }		
-
+/* This will fix the background image andoptimize it for my screen. */
 body{
     background-attachment: fixed;
     background-position: center; 
